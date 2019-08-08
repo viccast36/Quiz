@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/choiceB"
+        android:layout_width="166dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="27dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/choiceD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/choiceA"
+        app:layout_constraintTop_toBottomOf="@+id/question_Text" />
+
+    <EditText
+        android:id="@+id/question_Text"
+        android:layout_width="356dp"
+        android:layout_height="308dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+    <Button
+        android:id="@+id/choiceC"
+        android:layout_width="166dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="27dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/choiceD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choiceA" />
+
+    <Button
+        android:id="@+id/choiceA"
+        android:layout_width="166dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="27dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/choiceC"
+        app:layout_constraintEnd_toStartOf="@+id/choiceB"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question_Text" />
+
+    <Button
+        android:id="@+id/choiceD"
+        android:layout_width="166dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="27dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/choiceC"
+        app:layout_constraintTop_toBottomOf="@+id/choiceB" />
+</android.support.constraint.ConstraintLayout>
