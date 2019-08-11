@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/txtQuestion"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:hint="@string/txtQuestions"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"/>
+
+    <EditText
+        android:id="@+id/txtOption1"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:hint="@string/txtOption1"/>
+
+    <EditText
+        android:id="@+id/txtOption2"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        android:hint="@string/txtOption2"/>
+
+    <EditText
+        android:id="@+id/txtOption3"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:hint="@string/txtOption3"/>
+
+    <EditText
+        android:id="@+id/txtOption4"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:hint="@string/txtOption4"/>
+
+    <EditText
+        android:id="@+id/txtAnswer"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:hint="@string/txtAnswer"/>
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="125dp"
+        android:text="@string/btnUpload" />
+
+</LinearLayout>

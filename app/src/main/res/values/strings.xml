@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Quiz Pop</string>
+    <string name="txtUserName">Enter the User Name</string>
+    <string name="txtPassword">Enter the Password</string>
+    <string name="btnSignup">Sign Up</string>
+    <string name="btnLogin">Login</string>
+    <string name="txtUserName2">Enter the User Name</string>
+    <string name="txtPassword2">Enter the Password</string>
+    <string name="txtRePassword">Retype-Password</string>
+    <string name="txtEmail">Enter the Email ID</string>
+    <string name="numPhone">Enter the Phone Number</string>
+    <string name="btnSignup2">Sign me up!</string>
+    <string name="txtUserName3">Enter the User Name</string>
+    <string name="btnReturn">Return to Login Screen</string>
+    <string name="txtText">Quiz Pop</string>
+    <string name="user_page_text">User Page</string>
+    <string name="admin_page_text">Admin Page</string>
+    <string name="button1">Add Questions</string>
+    <string name="button2">Take Quiz</string>
+    <string name="button3">Number of Questions</string>
+    <string name="txtQuestions">Enter the Question</string>
+    <string name="txtOption1">Enter Option 1</string>
+    <string name="txtOption2">Enter Option 2</string>
+    <string name="txtOption3">Enter Option 3</string>
+    <string name="txtOption4">Enter Option 4</string>
+    <string name="btnUpload">Upload</string>
+    <string name="txtAnswer">Enter the answer</string>
+    <string name="btnTakeQuiz">Take Quiz</string>
+    <string name="btnNQ">Number of Questions</string>
+    <string name="btnReport">Report</string>
+</resources>
