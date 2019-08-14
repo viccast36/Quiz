@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-
+        <activity android:name=".QuizResultsPageActivity"></activity>
         <activity android:name=".QuizActivity"></activity>
         <activity android:name=".RankingActivity"></activity>
         <activity
