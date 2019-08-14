@@ -28,4 +28,8 @@
     <string name="btnTakeQuiz">Take Quiz</string>
     <string name="btnNQ">Number of Questions</string>
     <string name="btnReport">Report</string>
+    <string name="AboutUs">About Us</string>
+    <string name="SignOut">Sign Out</string>
+    <string name="AboutUsTitle">Quiz Pop</string>
+    <string name="AboutUsText">Quizpop is an application where you can test your knowledge against QuizPops database. This application is built for the people who are fanatic about quizzes. The user can answer some challenging questions. The admin will prepare the questions and add them to the database. The user is asked with some random questions from the database. Each question contains four multiple options. It is left to the user to select the number of questions to answer. There will be multiple rounds throughout the quiz. A report is made in every round using a bar graph. The user will also be able to see how a particular user stands against other users and see who is the ultimate Quizpopper. </string>
 </resources>

@@ -2,6 +2,8 @@ package com.example.quizpop;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -20,9 +22,6 @@ public class Add_Questions extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);   //initialises an activity;
         setContentView(R.layout.add_questions);
-
-        getSupportActionBar().setTitle("Add Question Page");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         upload = (Button)findViewById(R.id.btnUpload);
 
@@ -83,11 +82,34 @@ public class Add_Questions extends AppCompatActivity {
                     startActivity(intent);
                 }
 
-
-
-
+                getSupportActionBar().setTitle("Add Question Page");
+                getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
             }
         });
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu)
+    {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        if(item.getItemId()==R.id.AboutUs)
+        {
+            Intent intent = new Intent(Add_Questions.this, About_Us.class);
+            startActivity(intent);
+        }
+        else if(item.getItemId()==R.id.SignOut)
+        {
+            Toast.makeText(getApplicationContext(), "Sign Out Successful!", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(Add_Questions.this, MainActivity.class);
+            startActivity(intent);
+
+        }
+        return true;
     }
 }

@@ -19,9 +19,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Sign_Up"/>
-        <activity android:name=".Admin_Page" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Admin_Page"/>
         <activity android:name=".User_Page" android:parentActivityName=".MainActivity"/>
         <activity android:name=".Add_Questions" android:parentActivityName=".Admin_Page"/>
+        <activity android:name=".About_Us" android:parentActivityName=".Admin_Page"/>
     </application>
 
 </manifest>
