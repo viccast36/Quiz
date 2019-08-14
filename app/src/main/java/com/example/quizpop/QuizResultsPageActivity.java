@@ -2,15 +2,10 @@ package com.example.quizpop;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
+public class QuizResultsPageActivity extends AppCompatActivity {
 
-//chrashes when back is pressed
-public class QuizActivity  extends AppCompatActivity {
-    int practice;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -19,13 +14,9 @@ public class QuizActivity  extends AppCompatActivity {
         //should be quizactivity
 
 
-        setContentView(R.layout.quiz_activity);
-
-
-
-
+        setContentView(R.layout.quiz_results_page_activity);
+        TextView results = findViewById(R.id.results_after_quiz_textview);
 
 
     }
-
 }
